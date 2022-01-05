@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+    
+}
+h2{
+    font-size: 40px;
+}
+span{
+    color: brown;
+}
+
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.first-border{
+    border-left: 5px solid cornflowerblue;
+    margin-left: 5px;
+}
+
+.first-border h1{
+    margin-left: 10px;
+}
+
+.first-border h2{
+    margin-left: 10px;
+}
+.half-width img{
+    width: 60%;
+
+}
+.link-here{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.top-area a{
+    margin: 5px 0 15px;
+    display: inline-block;
+}
+#object{
+    text-align: center;
+}
+.card {
+    justify-content: space-between; 
+    max-width: 90%;
+    margin: 0 auto;
+}
+.target{
+    width: 30%;
+    padding: 10px;
+    border-radius: 3%;
+}
+.target img {
+    width: 40%;
+}
+#mission{
+    background-color: rgb(202, 211, 228);
+}
+
+
