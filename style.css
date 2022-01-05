@@ -51,7 +51,7 @@ span{
     margin: 5px 0 15px;
     display: inline-block;
 }
-#object{
+#aim{
     text-align: center;
 }
 .card {
@@ -62,13 +62,30 @@ span{
 .target{
     width: 30%;
     padding: 10px;
-    border-radius: 3%;
+    border-radius: 5%;
 }
 .target img {
     width: 40%;
 }
 #mission{
-    background-color: rgb(202, 211, 228);
+    background-color: rgb(197, 206, 224);
 }
-
-
+#vision{
+    background-color: rgb(160, 201, 201);
+}
+#goals{
+    background-color: rgb(192, 188, 135);
+}
+.development{
+    display: flex;
+    align-items: center;
+}
+.plugin{
+    width: 70%;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.development a{
+    margin-top: 5px;
+    display: inline-block;
+}
