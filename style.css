@@ -76,6 +76,7 @@ span{
 #goals{
     background-color: rgb(192, 188, 135);
 }
+
 .development{
     display: flex;
     align-items: center;
@@ -86,6 +87,15 @@ span{
     margin-left: 80px;
 }
 .development a{
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.global-community{
+    display: flex;
+    align-items: center;
+}
+.global-community a{
     margin-top: 5px;
     display: inline-block;
 }
