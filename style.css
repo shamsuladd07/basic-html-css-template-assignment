@@ -1,78 +1,87 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
+
 h1{
     font-size: 50px;
-    
 }
+
 h2{
     font-size: 40px;
 }
+
 span{
     color: rgb(255, 92, 88);
+}
+
+.container{
+    display: flex;
 }
 
 .half-width{
     width: 50%;
     padding: 5%;
 }
+
 .first-border{
     border-left: 5px solid rgb(250, 150, 60);
-    margin-left: 5px;
 }
 
 .first-border h1{
     margin-left: 10px;
 }
 
-.first-border h2{
-    margin-left: 10px;
-}
 .half-width img{
-    width: 60%;
+    width: 65%;
 
 }
+
+.top-area a{
+    margin: 5px 0 15px;
+    display: inline-block;
+}
+
 .link-here{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: whitesmoke;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-weight: 700;
     padding: 10px 15px;
     border-radius: 5px;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-}
-.top-area a{
-    margin: 5px 0 15px;
-    display: inline-block;
-}
+
 #aim{
     text-align: center;
 }
+
 .card {
     justify-content: space-between; 
     max-width: 90%;
     margin: 0 auto;
 }
+
 .target{
     width: 30%;
     padding: 10px;
     border-radius: 5%;
 }
+
 .target img {
     width: 40%;
 }
+
 #mission{
     background-color: rgb(224, 223, 207);
 }
+
 #vision{
     background-color: rgb(188, 197, 218);
 }
+
 #goals{
     background-color: rgb(200, 218, 218) ;
 }
@@ -80,27 +89,40 @@ span{
 .development{
     display: flex;
     align-items: center;
+    margin-top: 65px;
 }
-.plugin{
-    width: 70%;
-    margin-top: 70px;
-    margin-left: 80px;
+.half{
+    width: 50%;
+    margin: 20px;
+    margin-left: 50px;
 }
+
 .development a{
-    margin-top: 5px;
     display: inline-block;
 }
+.half-img {
+    width: 40%;
+}
+.half-img img{
+    width: 80%;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 5%;
+}
+
+
 
 .global-community{
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 .global-community a{
     margin-top: 5px;
     display: inline-block;
 }
 
-.about-me h1{
+.myself h1{
     text-align: center;
     margin-top: 50px;
 
@@ -110,7 +132,7 @@ span{
     align-items: center;
     margin-bottom: 100px;
 }
-.about-me a{
+.myself a{
     margin-top: 5px;
     display: inline-block;
 }
@@ -118,11 +140,27 @@ span{
     width: 50%;
     padding: 5%;
 }
+.about-img{
+    width: 70%;
+    margin-top: 70px;
+    margin-left: 80px;
+}
 
 footer{
     text-align: center;
     color: blanchedalmond;
     background-color: rgb(11, 13, 12);
     height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.footer h3 {
+    font-size: 25px;
+}
+
+.footer p {
+    font-weight: 300;
+}
